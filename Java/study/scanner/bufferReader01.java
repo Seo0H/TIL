@@ -1,4 +1,4 @@
-package Study.scanner;
+package study.scanner;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,7 +1,7 @@
-package Study.scanner;
+package study.scanner;
 import java.util.Scanner;
 
-public class scannerStudy01 {
+public class scannerstudy01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

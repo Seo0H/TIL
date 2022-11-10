@@ -1,6 +1,6 @@
-package Study.String;
+package study.string;
 
-public class stringStudy01 {
+public class stringstudy01 {
 	public static void main(String[] args) {
 		String str = "Hello world!";
 		

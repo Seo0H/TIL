@@ -1,14 +1,14 @@
-package Study.scanner;
+package study.scanner;
 
 import java.util.Scanner;
 
-public class scannerStudy02 {
+public class scannerstudy02 {
 
 	
 	
 	public static void main(String[] args) {
-		scannerStudy02.nextMethod();
-		scannerStudy02.nextLineMethod();
+		scannerstudy02.nextMethod();
+		scannerstudy02.nextLineMethod();
 	}
 	
 	static void nextMethod () {

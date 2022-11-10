@@ -1,11 +1,11 @@
-package Study.stream;
+package study.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-public class streamStudy01 {
+public class streamstudy01 {
 	public static void main(String[] args) {
 		// stream배열이나 컬렉션(List, Set, Map)으로 원하는 값을 얻을 때
 		// for문 도배를 방지하기 위해 나온 개념
