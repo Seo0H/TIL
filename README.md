@@ -7,7 +7,7 @@
 ---
 <br>
 
-###  **👇Tistory Blog와 같이 사용 중👇**
+###  **👇Tistory Blog와 같이 사용👇**
 
 <br>
 
