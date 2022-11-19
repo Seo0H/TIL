@@ -12,7 +12,6 @@ public class A_divide_B {
 	    double B = input.charAt(2) - 48;
 	    
 	    System.out.println(A/B);
-
 	}
 	
 }
