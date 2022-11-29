@@ -1,4 +1,4 @@
-package study;
+package study.java;
 
 public class lambdaStudy01 {
 
