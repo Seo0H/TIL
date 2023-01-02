@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <title>Momentum</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <script src="Nico_2.js"></script>
-    <script src="Nico_2-1.js"></script>
-    <script src="app.js"></script>
+
+    <table border=1>
+        <tr>
+         <td><b>주소</b></td>
+         <td><b>설명</b></td>
+         <td><b>저장버튼</b></td>
+       </tr>
+       <tr>
+         <td>
+           <input id="" value="semicolon-dev.tistory.com"/>
+         </td>
+         <td>
+           <input value="세미콜론 티스토리"/>
+         </td>
+         <td>
+           <button type="button" class="saveBtn" class="clickBtn">저장</button>
+         </td>
+       </tr>
+         <tr>
+         <td>
+           <input value="naver.com"/>
+         </td>
+         <td>
+           <input value="네이버"/>
+         </td>
+         <td>
+           <button type="button" class="saveBtn" class="clickBtn">저장</button>
+         </td>
+       </tr>
+         <tr>
+         <td>
+           <input value="daum.net"/>
+         </td>
+         <td>
+           <input value="다음"/>
+         </td>
+         <td>
+           <button type="button" class="saveBtn" class="clickBtn">저장</button>
+         </td>
+       </tr>
+     </table>
+
+    <script>
+        $('.saveBtn').on('click', function() {
+
+            //현재 row의 정보 가져오기
+            var thisRow = $(this).closest('tr');
+
+            //주소 input 값 가져오기
+            var addr = thisRow.find('td:eq(0)').find('input').val();
+            //섦졍 input 값 가져오기
+            var txt = thisRow.find('td:eq(1)').find('input').val();
+
+            alert(addr + ", " + txt + "을(를) 클릭하였습니다.");
+
+          })
+
+    </script>
+
 </body>
+
 </html>
