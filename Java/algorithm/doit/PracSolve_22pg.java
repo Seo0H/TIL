@@ -1,6 +1,6 @@
 package algorithm.doit;
 
-public class _0101 {
+public class PracSolve_22pg {
 	public static void main(String[] args) {
 		System.out.println(max4(25, 2, 3, 4));
 		System.out.println(min4(25, 2, 3, 4));

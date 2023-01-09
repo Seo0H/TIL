@@ -22,7 +22,7 @@ class Median {
 	}
 }
 
-class P_1c_1 extends Median {
+class Practice_1c_1 extends Median {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
